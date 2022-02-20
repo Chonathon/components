@@ -6,19 +6,29 @@ span {
     font-size: 2em;
 }
 
-.container {
+.container{
     display: flex;
-    width: 100%;
     justify-content: center;
+    margin-top: 5em;
+}
+
+.game {
+    display: flex;
+    width: 960px;
+    justify-content: space-around;
+    border: 1px solid #dbdbdb;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 3em 2em;
 }
 
 .grid {
     width: 400px;
     height: 800px;
-    background-color: #333;
+    background-color: #dbdbdb;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 .grid div {
